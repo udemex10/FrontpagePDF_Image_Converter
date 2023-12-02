@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="pdf.js" defer></script>
+    <script src="jspdf.js" defer></script>
+    <script src="popup.js" defer></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="path-to-stylesheet/style.css"
+    />
+    <link rel="stylesheet" type="text/css" href="donation-button.css" />
+  </head>
+  <body>
+    <h1>FrontpagePDF Image Converter</h1>
+    <p>
+      <input
+        type="file"
+        id="file-input"
+        accept=".jpg, .jpeg, .png, .webp, .pdf"
+      />
+    </p>
+    <p>
+      <button id="convert-button">Convert and Download</button>
+    </p>
+    <div id="status" class="status"></div>
+    <div class="donation-button">
+      <a href="https://ko-fi.com/V7V8I2UJ1" target="_blank">
+        <img
+          height="36"
+          style="border: 0px; height: 36px"
+          src="https://storage.ko-fi.com/cdn/kofi2.png?v=3"
+          border="0"
+          alt="Buy Me a Coffee at ko-fi.com"
+        />
+      </a>
+    </div>
+  </body>
+</html>
